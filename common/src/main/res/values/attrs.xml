@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LeanTextView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="textSize" format="reference|dimension" />
+        <attr name="lean_direction" >
+            <enum name="uptodown" value="0" />
+            <enum name="downtoup" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>
